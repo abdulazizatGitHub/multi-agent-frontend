@@ -1,0 +1,15 @@
+name: CI - Day 1 Placeholder
+
+on:
+  push:
+    branches: [ dev, preprod, main, feat/* ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: CI Status
+        run: echo "CI pipeline running (Day 1 placeholder)"
