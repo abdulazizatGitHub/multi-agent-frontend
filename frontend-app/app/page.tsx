@@ -25,7 +25,7 @@ export default function Home() {
         placeholder="Ask Jarvis..."
         style={{ padding: "10px", width: "60%" }}
       />
-      <button onClick={send} style={{ marginLeft: 10 }}>Send</button>
+      <button onClick={send} style={{ marginLeft: 10 }} className="bg-blue-300 cursor-pointer">Send</button>
       <p style={{ marginTop: 20 }}>Reply: {reply}</p>
     </div>
   );
